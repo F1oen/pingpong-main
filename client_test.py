@@ -96,11 +96,11 @@ while running:
 
     screen.fill(BLACK)
 
-    pygame.draw.rect(screen, WHITE, (50, paddle_y, paddle_width, paddle_height)) # Твоя ракетка
+    pygame.draw.rect(screen, WHITE, (50, paddle_y, paddle_width, paddle_height)) # Player 1 rocket
 
-    pygame.draw.rect(screen, WHITE, (WIDTH - 70, paddle_opponent_y, paddle_width, paddle_height)) # Ракетка суперника
+    pygame.draw.rect(screen, WHITE, (WIDTH - 70, paddle_opponent_y, paddle_width, paddle_height)) # Player 2 rocket
 
-    pygame.draw.ellipse(screen, WHITE, (ball_x, ball_y, ball_size, ball_size)) # М'яч
+    pygame.draw.ellipse(screen, WHITE, (ball_x, ball_y, ball_size, ball_size)) # Ball
 
     pygame.display.flip()
 
